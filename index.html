@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            color: #333;
+            background-color: #fcfcfc;
+        }
+        header { margin-bottom: 3rem; border-bottom: 1px solid #eee; padding-bottom: 1.5rem; }
+        h1 { margin-bottom: 0.5rem; color: #111; }
+        .subtitle { color: #666; font-size: 1.2rem; }
+        section { margin-bottom: 2.5rem; }
+        h2 { color: #222; border-left: 4px solid #0066cc; padding-left: 10px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+        .card { border: 1px solid #e1e4e8; border-radius: 6px; padding: 1.2rem; background: #fff; }
+        .card h3 { margin-top: 0; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hi, I'm a Developer 👋</h1>
+        <p class="subtitle">Building clean, efficient software and exploring new tech.</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my personal corner of the internet! I specialize in modern backend systems, building responsive applications, and exploring automated infrastructure. Outside of coding, I enjoy teaching tech concepts and diving into creative side projects.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Tech Stack & Tools</h2>
+        <p><strong>Languages & Frameworks:</strong> Java, Python, JavaScript, Flutter, HTML/CSS</p>
+        <p><strong>Tools & Observability:</strong> Git, Docker, OpenTelemetry</p>
+    </section>
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Project One</h3>
+                <p>A mobile utility app built to solve real-world location tracking and smooth payment integrations.</p>
+                <a href="#">View Code →</a>
+            </div>
+            <div class="card">
+                <h3>Project Two</h3>
+                <p>An automated setup designed to streamline data processing pipelines with deep observability logs.</p>
+                <a href="#">View Code →</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 | Connected via <a href="https://github.com">GitHub</a></p>
+    </footer>
+
+</body>
+</html>
